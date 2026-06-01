@@ -1,0 +1,38 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-7.4.3, pluggy-1.6.0 -- /opt/pyvenv/bin/python3
+cachedir: .pytest_cache
+rootdir: /mnt/data/extracted/techstore-devops
+collecting ... collected 30 items
+
+tests/test_app.py::test_home_page_status PASSED                          [  3%]
+tests/test_app.py::test_home_page_contains_products PASSED               [  6%]
+tests/test_app.py::test_home_page_contains_categories PASSED             [ 10%]
+tests/test_app.py::test_product_detail_valid PASSED                      [ 13%]
+tests/test_app.py::test_product_detail_invalid PASSED                    [ 16%]
+tests/test_app.py::test_product_detail_shows_specs PASSED                [ 20%]
+tests/test_app.py::test_product_detail_shows_price PASSED                [ 23%]
+tests/test_app.py::test_add_to_cart_success PASSED                       [ 26%]
+tests/test_app.py::test_add_to_cart_invalid_product PASSED               [ 30%]
+tests/test_app.py::test_add_same_product_increases_quantity PASSED       [ 33%]
+tests/test_app.py::test_add_multiple_products PASSED                     [ 36%]
+tests/test_app.py::test_remove_from_cart PASSED                          [ 40%]
+tests/test_app.py::test_update_cart_quantity PASSED                      [ 43%]
+tests/test_app.py::test_cart_page_empty PASSED                           [ 46%]
+tests/test_app.py::test_cart_page_with_items PASSED                      [ 50%]
+tests/test_app.py::test_search_by_name PASSED                            [ 53%]
+tests/test_app.py::test_search_by_category PASSED                        [ 56%]
+tests/test_app.py::test_search_no_results PASSED                         [ 60%]
+tests/test_app.py::test_checkout_page_empty_cart_redirect PASSED         [ 63%]
+tests/test_app.py::test_checkout_post_creates_order PASSED               [ 66%]
+tests/test_app.py::test_health_endpoint PASSED                           [ 70%]
+tests/test_app.py::test_metrics_endpoint PASSED                          [ 73%]
+tests/test_app.py::test_all_products_have_required_fields PASSED         [ 76%]
+tests/test_app.py::test_product_prices_positive PASSED                   [ 80%]
+tests/test_app.py::test_product_stock_non_negative PASSED                [ 83%]
+tests/test_app.py::test_get_product_by_id_exists PASSED                  [ 86%]
+tests/test_app.py::test_get_product_by_id_not_exists PASSED              [ 90%]
+tests/test_app.py::test_product_ratings_in_range PASSED                  [ 93%]
+tests/test_app.py::test_product_ids_unique PASSED                        [ 96%]
+tests/test_app.py::test_product_specs_not_empty PASSED                   [100%]
+
+============================== 30 passed in 0.32s ==============================

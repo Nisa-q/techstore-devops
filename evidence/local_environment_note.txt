@@ -1,0 +1,7 @@
+Bu doğrulama ChatGPT çalışma ortamında yapılmıştır. Yerel bilgisayarda aynı sonuç için önce requirements.txt bağımlılıkları kurulmalı ve ardından aşağıdaki komutlar çalıştırılmalıdır:
+
+python -m pytest tests/test_app.py -v
+coverage run -m pytest tests/test_app.py -q
+coverage report -m app.py
+
+Docker, Jenkins, SonarQube ve Grafana ekran görüntüleri kullanıcının kendi bilgisayarında alınmalıdır; bu servisler hesap/yerel Docker gerektirdiği için burada doğrulanamamıştır.
