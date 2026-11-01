@@ -5,7 +5,7 @@ Gerçekçi bir e-ticaret uygulaması üzerinde tam DevOps pipeline'ı.
 ## Proje Yapısı
 
 ```
-techstore/
+techstore-devops/
 ├── app.py                    # Ana Flask uygulaması
 ├── requirements.txt          # Python bağımlılıkları
 ├── Dockerfile                # Container tanımı
@@ -54,8 +54,8 @@ git --version        # 2+
 
 ```bash
 # Klonla
-git clone https://github.com/kullanici-adi/techstore.git
-cd techstore
+git clone https://github.com/Nisa-q/techstore-devops.git
+cd techstore-devops
 
 # Sanal ortam kur
 python3 -m venv venv
