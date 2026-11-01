@@ -4,3 +4,13 @@ __pycache__/
 .coverage
 htmlcov/
 *.pyc
+
+# Yerel ortam ve ayarlar
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
